@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="5_3.css">
+    <title>Home_Work_5_3</title>
+</head>
+<body>
+    <button>Показать форму заполнения</button>    
+    <div >
+        <form action="">
+            <input type="text" placeholder="Введите ваше имя"> </br>
+            <input type="number" placeholder="Ваш возраст"></br>
+            <input type="email" placeholder="Введите ваш email"></br>
+            <button>Закрыть форму</button>         
+        </form>
+    </div>
+    <script>
+        let butEl = document.querySelector('button');
+        let divEl = document.querySelector('div');
+        let formEl = document.querySelector('form')
+        let butElClose = divEl.querySelector('button');       
+        butEl.addEventListener('click', function(){
+            divEl.classList.add('modal',  'tilt-in-right-1');
+            divEl.classList.remove('swirl-out-bck');
+        });
+        butElClose.addEventListener('click', function(){
+            divEl.classList.remove('tilt-in-right-1');
+            divEl.classList.add('swirl-out-bck');
+        })
+    </script>
+</body>
+</html>
