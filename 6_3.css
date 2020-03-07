@@ -1,0 +1,36 @@
+body {
+    display: flex;
+}
+.container {
+    display: flex;
+}
+.product {
+    margin-right: 70px;
+}
+button {
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+}
+.cart {
+    margin-left: 100px;
+}
+.cart_table {
+    margin-top: 40px;
+    display: none;
+}
+.id, .table_product, .table_price, .table_number {
+    width: 100px;
+    height: 20px;    
+}
+.cart_product {
+    display: flex;
+}
+.total {
+    font-size: 25px;
+    display: flex;
+}
+.summ {
+    margin-left: 50px;
+    margin-right: 10px;
+}
