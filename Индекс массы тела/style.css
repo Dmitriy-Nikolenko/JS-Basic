@@ -1,0 +1,64 @@
+.container {
+    max-width: 400px;
+    background-color: aqua;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    }
+
+.age, .height, .weight {
+    display: flex;
+}
+input {
+    width: 150px;
+    height: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.age__text, .height__text, .weight__text {
+ margin-right: 50px;
+}
+.height__input{
+    margin-left: 25px;
+}
+.weight__input {
+    margin-left: 35px;
+}
+button {
+width: 200px;
+height: 30px;
+margin-bottom: 30px;
+margin-left: 100px;
+background-color: coral;
+}
+.total {
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+    font-size: 20px;  
+}
+.total__input {
+    
+    margin-left: 100px;
+    margin-top: -40px;
+   
+}
+.total__text {
+    margin-left: 20px;
+   
+}
+.total_block {
+    display: block; 
+}
+.hide {
+    display: none;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -20px;
+    
+}
